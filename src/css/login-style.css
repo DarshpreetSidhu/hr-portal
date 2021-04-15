@@ -1,0 +1,8 @@
+.align{
+    display: flex;
+    flex-direction: column;
+  }
+  .align-form{
+    display:flex;
+    justify-content:center;
+  }

@@ -4,6 +4,7 @@ import LoginPage from './pages/login-page';
 import SignupPage from './pages/signup-page';
 import HomePage from './pages/home-page';
 import PageNotFound from './pages/page-not-found';
+import 'antd/dist/antd.css';
 
 class App extends Component {
   render() {
