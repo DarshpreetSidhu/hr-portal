@@ -17,6 +17,7 @@ onFinish =(value)=> {
     axios.post(url,value)
 .then((response)=>{
     console.log(response)
+    this.props.history.push("/home")
 })
 .catch((error) => {
     console.log(error)
